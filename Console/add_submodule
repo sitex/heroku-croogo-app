@@ -38,7 +38,7 @@ $repos = array(
 	'cakephp' => array(
 		'url' => 'http://github.com/cakephp/cakephp',
 		'target' => 'Vendor/cakephp/cakephp',
-		'branch' => 'master',
+		'branch' => '2.7',
 	),
 	'croogo' => array(
 		'url' => 'http://github.com/croogo/croogo',
