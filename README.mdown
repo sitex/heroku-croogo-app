@@ -1,70 +1,14 @@
-# Croogo
+# Heroku Buildpack for Croogo
 
-[**Croogo**](http://croogo.org) is a free, open source, content management system for PHP, released under [MIT License](http://github.com/croogo/croogo/blob/master/LICENSE.txt).
+You can deploy your own instance of Croogo on Heroku in one click!
 
-This repository contains the skeleton files that can be used as the base of
-your application.
+## Press to deploy
 
-## Requirements
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy).
 
-* Apache with `mod_rewrite`
-* PHP 5.3 or higher
-* MySQL 4.1 or higher
+## Live Demo
+You can check a result at [Heroku Croogo App](http://croogo.herokuapp.com/)
 
-## Installation
+[Heroku](http://www.heroku.com) is a platform as a service (PaaS) that enables developers to build and run applications entirely in the cloud.
 
-To create a new Croogo project using [composer](http://getcomposer.org):
-
-	composer create-project croogo/app app
-	cd app
-	composer install
-
-The above commands will setup an `app` directory with the necessary files for
-a Croogo project.  The default setup in `composer.json` includes:
-
-* Croogo ~2.x, installed in Vendor/croogo/croogo
-* CakePHP ~2.4, installed in Vendor/cakephp/cakephp
-
-To configure your Croogo application:
-
-	Console/cake install.install
-
-Alternatively, you can also use the installer from the browser.
-
-## Installation using git
-
-You can use `git` to setup your Croogo project:
-
-	git clone http://github.com/croogo/app app
-	cd app && Console/add_submodule
-
-The above commands will setup an `app` directory with all the necessary
-submodules registered.
-
-To configure your Croogo application:
-
-	Console/cake install.install
-
-Alternatively, you can also use the installer from the browser.
-
-## Installing with Vagrant
-
-Make sure you have Vagrant with VirtualBox already installed in your machine first.
-
-Then follow these steps:
-
-    $ git clone git://github.com/croogo/app.git
-    $ cd app
-    $ gem install librarian-chef
-    $ librarian-chef install
-    $ vagrant up
-
-Add a new host for croogo.dev:
-
-    $ sudo vim /etc/hosts
-
-and add this line to that file:
-
-    16.17.18.19 croogo.dev
-
-You should be able to load Croogo from http://croogo.dev now.
+[Croogo](http://croogo.org) is a free, open source, content management system for PHP, released under [MIT License](http://github.com/croogo/croogo/blob/master/LICENSE.txt). It is powered by [CakePHP MVC framework](http://cakephp.org/).
