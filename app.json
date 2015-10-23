@@ -1,0 +1,15 @@
+{
+  "name": "Croogo for Heroku",
+  "description": "Croogo for Heroku",
+  "addons": ["cleardb:ignite"],
+  "env": {
+    "ADMIN_USER": {
+      "description": "Admin username.",
+      "value": "admin"
+    },
+    "ADMIN_PASSWORD": {
+      "description": "Admin password. Minimum 6 characters.",
+      "value": "password"
+    }    
+  }
+}
