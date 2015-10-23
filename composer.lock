@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7a4a59d365e5e39f124eaad22241ee5f",
-    "content-hash": "b3723da3fe352b19fd013038dcd8e2d3",
+    "hash": "d1b29a1b6d4a56ab29e19973fa1b453b",
+    "content-hash": "ad7eb76547d5e1e8cda21bb7f87cab44",
     "packages": [
         {
             "name": "cakedc/migrations",
@@ -784,6 +784,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
+        "ext-mbstring": "*",
         "php": ">=5.3.10"
     },
     "platform-dev": []
