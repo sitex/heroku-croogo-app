@@ -24,12 +24,12 @@
 		"vendor-dir": "Vendor"
 	},
 	"require": {
+		"ext-mbstring": "*",
 		"php": ">=5.3.10",
 		"croogo/croogo": "~2.2",
 		"cakephp/cakephp": "2.6.11",
 		"composer/installers": "~1.0",
-		"sitex/heroku": "dev-master",
-		"ext-mbstring": "*"
+		"sitex/heroku": "dev-master"
 	},
 	"suggest": {
 		"croogo/locale": "~1.0"
