@@ -24,7 +24,7 @@
 		"vendor-dir": "Vendor"
 	},
 	"require": {
-		"ext-mbstring": "*",
+		"mbstring": "*",
 		"php": ">=5.3.10",
 		"croogo/croogo": "~2.2",
 		"cakephp/cakephp": "2.6.11",
