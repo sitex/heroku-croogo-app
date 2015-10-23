@@ -76,3 +76,8 @@ CakeLog::config('error', array(
 ));
 
 CakePlugin::load('Croogo', array('bootstrap' => true));
+
+// Heroku Installer
+if (!Configure::read('Croogo.installed') || !Configure::read('Install.secured')) {
+	CakePlugin::load('Heroku');
+}
