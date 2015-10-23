@@ -328,12 +328,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sitex/heroku.git",
-                "reference": "38be2fafa7c150f1deebaa43b6ce32473608ded2"
+                "reference": "c1fae496f7dd728df6d0125a8edac611b71c29fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitex/heroku/zipball/38be2fafa7c150f1deebaa43b6ce32473608ded2",
-                "reference": "38be2fafa7c150f1deebaa43b6ce32473608ded2",
+                "url": "https://api.github.com/repos/sitex/heroku/zipball/c1fae496f7dd728df6d0125a8edac611b71c29fe",
+                "reference": "c1fae496f7dd728df6d0125a8edac611b71c29fe",
                 "shasum": ""
             },
             "require": {
@@ -359,7 +359,7 @@
                 "croogo",
                 "heroku"
             ],
-            "time": "2015-10-23 12:29:59"
+            "time": "2015-10-23 14:04:44"
         }
     ],
     "packages-dev": [
