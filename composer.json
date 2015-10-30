@@ -39,7 +39,7 @@
 	},
 	"scripts": {
 		"compile": [
-			"bash ./Console/cake heroku.install"
+			"bash ./Console/cake heroku.heroku"
 		]
 	}
 }

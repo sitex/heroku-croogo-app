@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d1b29a1b6d4a56ab29e19973fa1b453b",
+    "hash": "8f3199dd38d8bdb3ff0a8c619262ca3f",
     "content-hash": "ad7eb76547d5e1e8cda21bb7f87cab44",
     "packages": [
         {
@@ -134,17 +134,20 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.0.21",
+            "version": "v1.0.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
+                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
-                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "url": "https://api.github.com/repos/composer/installers/zipball/bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046",
                 "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
@@ -154,9 +157,9 @@
                 "composer/composer": "1.0.*@dev",
                 "phpunit/phpunit": "4.1.*"
             },
-            "type": "composer-installer",
+            "type": "composer-plugin",
             "extra": {
-                "class": "Composer\\Installers\\Installer",
+                "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
                     "dev-master": "1.0-dev"
                 }
@@ -225,7 +228,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-02-18 17:17:01"
+            "time": "2015-10-29 23:28:48"
         },
         {
             "name": "croogo/ckeditor",
@@ -328,12 +331,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sitex/heroku.git",
-                "reference": "c1fae496f7dd728df6d0125a8edac611b71c29fe"
+                "reference": "7fb187a84b091d5cedead91d2198ec560e3eff07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitex/heroku/zipball/c1fae496f7dd728df6d0125a8edac611b71c29fe",
-                "reference": "c1fae496f7dd728df6d0125a8edac611b71c29fe",
+                "url": "https://api.github.com/repos/sitex/heroku/zipball/7fb187a84b091d5cedead91d2198ec560e3eff07",
+                "reference": "7fb187a84b091d5cedead91d2198ec560e3eff07",
                 "shasum": ""
             },
             "require": {
@@ -359,7 +362,7 @@
                 "croogo",
                 "heroku"
             ],
-            "time": "2015-10-23 14:04:44"
+            "time": "2015-10-30 18:06:03"
         }
     ],
     "packages-dev": [
@@ -727,23 +730,20 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.7.5",
+            "version": "v2.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "31cb2ad0155c95b88ee55fe12bc7ff92232c1770"
+                "reference": "eca9019c88fbe250164affd107bc8057771f3f4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/31cb2ad0155c95b88ee55fe12bc7ff92232c1770",
-                "reference": "31cb2ad0155c95b88ee55fe12bc7ff92232c1770",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/eca9019c88fbe250164affd107bc8057771f3f4d",
+                "reference": "eca9019c88fbe250164affd107bc8057771f3f4d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "~2.7"
             },
             "type": "library",
             "extra": {
@@ -772,7 +772,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-09-14 14:14:09"
+            "time": "2015-10-11 09:39:48"
         }
     ],
     "aliases": [],
